@@ -32,7 +32,7 @@ namespace IT_praktika_7
           for (i = 0; i < 5; i++)
             for (j = 0; j < 5; j++)
               dataGridView1.Rows[i].Cells[j].Value = Convert.ToString(a[i, j]);
-          int m = int.MinValue;
+          int m = int.MinValue; 
           for (i = 0; i < 5; i++)
             for (j = 0; j < 5; j++)
               if ((a[i, j] > m) && (i < j)) 
